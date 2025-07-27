@@ -8,53 +8,63 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Indian Market Inspired Color Palette */
-    --background: 43 100% 98%;
-    --foreground: 25 35% 15%;
+    /* Enhanced Indian Market Color Palette - More Vibrant & Attractive */
+    --background: 45 100% 99%;
+    --foreground: 20 45% 12%;
 
-    --card: 45 100% 99%;
-    --card-foreground: 25 35% 15%;
+    --card: 47 100% 98%;
+    --card-foreground: 20 45% 12%;
 
-    --popover: 45 100% 99%;
-    --popover-foreground: 25 35% 15%;
+    --popover: 47 100% 98%;
+    --popover-foreground: 20 45% 12%;
 
-    /* Saffron/Turmeric Primary */
-    --primary: 42 88% 55%;
-    --primary-foreground: 45 100% 99%;
-    --primary-glow: 42 88% 65%;
+    /* Rich Saffron/Marigold Primary */
+    --primary: 40 95% 58%;
+    --primary-foreground: 47 100% 98%;
+    --primary-glow: 38 95% 68%;
+    --primary-dark: 40 95% 45%;
 
-    /* Warm Secondary */
-    --secondary: 35 85% 92%;
-    --secondary-foreground: 25 35% 15%;
+    /* Warm Cream Secondary */
+    --secondary: 42 90% 90%;
+    --secondary-foreground: 20 45% 12%;
 
-    /* Muted Earth Tones */
-    --muted: 35 85% 95%;
-    --muted-foreground: 25 25% 45%;
+    /* Soft Earth Muted */
+    --muted: 42 85% 93%;
+    --muted-foreground: 20 35% 40%;
 
-    /* Paprika Accent */
-    --accent: 15 85% 60%;
-    --accent-foreground: 45 100% 99%;
+    /* Vibrant Orange-Red Accent */
+    --accent: 12 90% 62%;
+    --accent-foreground: 47 100% 98%;
+    --accent-glow: 12 90% 72%;
 
-    /* Chili Red for Important Actions */
-    --destructive: 0 85% 55%;
-    --destructive-foreground: 45 100% 99%;
+    /* Bold Red for Actions */
+    --destructive: 2 88% 58%;
+    --destructive-foreground: 47 100% 98%;
 
-    --border: 35 45% 88%;
-    --input: 35 45% 90%;
-    --ring: 42 88% 55%;
+    /* Success Green */
+    --success: 142 85% 45%;
+    --success-foreground: 47 100% 98%;
 
-    /* Indian Market Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(42 88% 55%), hsl(35 85% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(42 88% 55%), hsl(15 85% 60%));
-    --gradient-card: linear-gradient(145deg, hsl(45 100% 99% / 0.8), hsl(35 85% 95% / 0.9));
+    --border: 40 60% 85%;
+    --input: 40 55% 88%;
+    --ring: 40 95% 58%;
+
+    /* Enhanced Indian Market Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(40 95% 58%), hsl(38 95% 68%), hsl(12 90% 62%));
+    --gradient-hero: linear-gradient(135deg, hsl(40 95% 58%) 0%, hsl(12 90% 62%) 50%, hsl(15 85% 55%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(47 100% 98% / 0.9), hsl(42 90% 90% / 0.95));
+    --gradient-accent: linear-gradient(135deg, hsl(12 90% 62%), hsl(15 85% 55%));
+    --gradient-success: linear-gradient(135deg, hsl(142 85% 45%), hsl(145 80% 55%));
     
-    /* Indian Market Shadows */
-    --shadow-warm: 0 10px 40px -10px hsl(42 88% 55% / 0.3);
-    --shadow-spice: 0 20px 60px -15px hsl(15 85% 60% / 0.25);
-    --shadow-glass: 0 8px 32px 0 hsl(42 88% 55% / 0.15);
+    /* Enhanced Shadows with Color */
+    --shadow-warm: 0 12px 45px -12px hsl(40 95% 58% / 0.35);
+    --shadow-spice: 0 25px 70px -18px hsl(12 90% 62% / 0.3);
+    --shadow-glass: 0 10px 35px 0 hsl(40 95% 58% / 0.18);
+    --shadow-glow: 0 0 50px hsl(40 95% 68% / 0.4);
     
-    /* Transitions */
-    --transition-warm: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    /* Smooth Transitions */
+    --transition-warm: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 
