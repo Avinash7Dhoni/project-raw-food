@@ -1,8 +1,8 @@
-# Welcome to your Lovable project
+# Welcome to project-raw-material
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/9ecd2915-61b9-4dee-816f-aa797d36a88a
+**URL**:https://project-raw-food.lovable.app
 
 ## How can I edit this code?
 
@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9ecd2915-61b9-4dee-816f-aa797d36a88a) and start prompting.
+Simply visit the project-raw-material https://project-raw-food.lovable.app and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -62,7 +62,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/9ecd2915-61b9-4dee-816f-aa797d36a88a) and click on Share -> Publish.
+Simply open https://project-raw-food.lovable.app and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
